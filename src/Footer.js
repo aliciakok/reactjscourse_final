@@ -12,10 +12,10 @@ const Footer = () => {
         <span className="sitename">Hidayah</span>
       </a>
       <div className="footer-contact pt-3">
-        <p>A108 Adam Street</p>
-        <p>New York, NY 535022</p>
-        <p className="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-        <p><strong>Email:</strong> <span>info@example.com</span></p>
+        <p>Street 10</p>
+        <p>Singapore 535022</p>
+        <p className="mt-3"><strong>Phone:</strong> <span>+65 98765432</span></p>
+        <p><strong>Email:</strong> <span>info@hidayah.sg</span></p>
       </div>
       <div className="social-links d-flex mt-4">
         <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -39,11 +39,11 @@ const Footer = () => {
     <div className="col-lg-2 col-md-3 footer-links">
       <h4>Our Services</h4>
       <ul>
-        <li><a href="#">Web Design</a></li>
-        <li><a href="#">Web Development</a></li>
-        <li><a href="#">Product Management</a></li>
-        <li><a href="#">Marketing</a></li>
-        <li><a href="#">Graphic Design</a></li>
+        <li><a href="#">Wedding Planning</a></li>
+        <li><a href="#">Birthday Planning</a></li>
+        <li><a href="#">Corporate Event</a></li>
+        <li><a href="#">Stadium Event</a></li>
+        <li><a href="#">Others</a></li>
       </ul>
     </div>
 

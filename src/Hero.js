@@ -18,10 +18,12 @@ const Hero = () => {
                 <br />
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+              We're thrilled to have you here at Haidayah, where unforgettable events come to life. 
+              Whether you're planning an intimate gathering or a grand celebration, our team is dedicated to turning your vision into a spectacular reality. 
+              Explore our site to discover our range of services, from elegant weddings to dynamic corporate events.
+              <br/>
+              <br/>
+              Thank you for visiting, and we look forward to creating something extraordinary with you!
               </p>
               <a href="#about" className="btn-get-started">
                 Read More
@@ -33,12 +35,12 @@ const Hero = () => {
           <div className="carousel-item">
             <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="" />
             <div className="carousel-container">
-              <h2>At vero eos et accusamus</h2>
+              <h2>At Hidayah</h2>
               <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere possimus,
-                omnis voluptas assumenda est, omnis dolor repellendus.
-                Temporibus autem quibusdam et aut officiis debitis aut.
+              We believe in turning dreams into reality. 
+              Our commitment to excellence, creativity, and personalized service sets us apart. 
+              We work closely with you to understand your vision, offering innovative solutions and seamless execution every step of the way.
+              Thank you for considering us to be a part of your special occasion. We look forward to the opportunity to make your event truly unforgettable.
               </p>
               <a href="#about" className="btn-get-started">
                 Read More
@@ -50,12 +52,10 @@ const Hero = () => {
           <div className="carousel-item">
             <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="" />
             <div className="carousel-container">
-              <h2>Temporibus autem quibusdam</h2>
+              <h2>Excellence, Creativity, Personalized Services</h2>
               <p>
-                Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt omnis iste natus error sit voluptatem accusantium.
+              From intimate gatherings to grand celebrations, we focus on delivering a bespoke experience that makes your event truly special. 
+              With our commitment to attentive and individualized care, we transform your ideas into unforgettable moments.
               </p>
               <a href="#about" className="btn-get-started">
                 Read More

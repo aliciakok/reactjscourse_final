@@ -1,14 +1,15 @@
 import React , {useState, useEffect} from "react";
 import axios from 'axios';
 
-const eventURL = 'https://app.ticketmaster.com/discovery/v2/events.json?page=0&size=11&apikey=Q5KsYDp6eu8cLQclufsDVTuGyAgqQfMp'
+const eventURL = 'https://app.ticketmaster.com/discovery/v2/events.json?page=8&size=8&apikey=Q5KsYDp6eu8cLQclufsDVTuGyAgqQfMp'
 
 
 const Portfolio = () => {
 	const [event, setEvent] = useState([])
 	const allEvent = async() => {
 		const response = await axios.get(`${eventURL}`)
-		console.log(response.data._embedded)
+		// console.log(response.data._embedded)
+    // console.log(response.data._embedded.events.url)
 		setEvent(response.data._embedded.events)
 	}
 
@@ -22,8 +23,8 @@ const Portfolio = () => {
            <h2>Events</h2>
            <div>
              <span>Check Our</span>{" "}
-             <span className="description-title">Event</span>
-             </div> 
+             <span className="description-title">Events</span>
+             </div>
 			 </div> 
 		
 			<div class="container-fluid">
@@ -32,11 +33,12 @@ const Portfolio = () => {
 					{event.map((eventList) => {
 					return (
 						
-						// <div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-						// <div className="portfolio-content h-100">
-							<img src={eventList.images[0].url} className="img-fluid" style={{width:"300px"}}/>
-						// </div>
-						// </div>
+						<div className="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+						<div className="portfolio-content h-100">
+            <h5>{eventList.name}</h5>
+							<a href={eventList.url}><img src={eventList.images[6].url} className="glightbox" style={{width:"450px", height:"200px"}}/></a>
+						</div>
+						</div>
 				)})}
 			</div>
 			</div>
